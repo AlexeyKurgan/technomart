@@ -1,0 +1,17 @@
+/** libs styles in project **/ 
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+/** libs styles in project **/ 
+
+/*---------------------------------------------------*/ 
+
+/** base styles in project **/
+@import 'base/base-styles'; 
+@import 'base/variables'; 
+@import 'base/mixins'; 
+@import 'base/media'; 
+/** base styles in project **/ 
+
+/** header block styles **/ 
+@import 'blocks/header';
+/** header block styles **/ 

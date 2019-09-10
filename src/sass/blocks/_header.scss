@@ -1,0 +1,42 @@
+.header {
+    width: 100%;
+    border: 1px solid black;
+    min-height: 379px;
+
+    &__top-nav {
+        min-height: 43px;
+        background-color: $bg-color1;
+        color: white;
+
+    }
+
+    &__nav-wrap {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        width:220px;
+        height: 43px;
+        margin-right: 17px;
+        text-align: center;
+        background-color: $bg-color2;
+        font-size: 24px;
+        line-height: 48px;
+        box-shadow: 0px 5px 0px 0px $shadow-color;
+    }
+    &__search {
+        // width: 75px;
+        display: flex;
+        justify-content: space-between;
+        // border:1px solid yellow;
+
+       &-img{
+           margin-right: 15px;
+       }
+       &-text {
+        //    border:1px solid red;
+           margin-right: 197px;
+       }
+    }
+}
