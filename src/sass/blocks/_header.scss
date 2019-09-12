@@ -1,5 +1,4 @@
 .header {
-  border: 1px solid lightgreen;
   color: #ffffff;
   font-size: 17px;
   min-height: 379px;
@@ -13,6 +12,14 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+  }
+
+  &__link{
+    color:#ffffff;
+    &:hover{
+      color:#ffffff;
+      text-decoration: none;
+    }
   }
 
   &__logo {
@@ -50,10 +57,12 @@
       border: 0px;
       background-color: $bg-color1;
     }
-    &-field{
-        background-color: $bg-color1;
-        border: 0;
-        font-size:20px;
+    &-field {
+      background-color: $bg-color1;
+      color:#ffffff;
+      padding: 0px 10px 0px 10px;
+      border: 0;
+      font-size: 20px;
     }
   }
 
@@ -64,6 +73,7 @@
 
     &-img {
       fill: $icon-color;
+      margin-right: 13px;
     }
   }
   &__cart {
@@ -72,6 +82,9 @@
     align-items: center;
     &-img {
       fill: #6a7180;
+      margin-right: 17px;
+      width:17px;
+      height:17px;
     }
   }
   &__btn {
