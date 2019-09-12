@@ -1,5 +1,5 @@
 * {
-  font-family: 'Cuprum', 'PtSans', sans-serif;
+  font-family: "Cuprum", "PtSans", sans-serif;
 }
 
 html {
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  // width: 941px;
-  max-width: 79%;
+  max-width: 960px;
   margin: 0 auto;
+  border: 1px solid red; 
 }

@@ -1,42 +1,86 @@
 .header {
-    width: 100%;
-    border: 1px solid black;
-    min-height: 379px;
+  border: 1px solid lightgreen;
+  color: #ffffff;
+  font-size: 17px;
+  min-height: 379px;
 
-    &__top-nav {
-        min-height: 43px;
+  &__top-nav {
+    background-color: $bg-color1;
+  }
+
+  &__nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &__logo {
+    min-width: 220px;
+    min-height: 43px;
+    display: block;
+    margin-right: 17px;
+    text-align: center;
+    background-color: $bg-color2;
+    font-size: 24px;
+    line-height: 48px;
+    box-shadow: 0px 5px 0px 0px $shadow-color;
+  }
+  &__search {
+    display: flex;
+    align-items: center;
+
+    &-img {
+      width: 20px;
+      height: 20px;
+      fill: $icon-color;
+    }
+    &-form {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-send {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 35px;
+      height: 35px;
+      outline: none;
+      border: 0px;
+      background-color: $bg-color1;
+    }
+    &-field{
         background-color: $bg-color1;
-        color: white;
-
+        border: 0;
+        font-size:20px;
     }
+  }
 
-    &__nav-wrap {
-        display: flex;
-        align-items: center;
-    }
+  &__bookmarks {
+    display: flex;
+    align-items: center;
+    min-width: 160px;
 
-    &__logo {
-        width:220px;
-        height: 43px;
-        margin-right: 17px;
-        text-align: center;
-        background-color: $bg-color2;
-        font-size: 24px;
-        line-height: 48px;
-        box-shadow: 0px 5px 0px 0px $shadow-color;
+    &-img {
+      fill: $icon-color;
     }
-    &__search {
-        // width: 75px;
-        display: flex;
-        justify-content: space-between;
-        // border:1px solid yellow;
-
-       &-img{
-           margin-right: 15px;
-       }
-       &-text {
-        //    border:1px solid red;
-           margin-right: 197px;
-       }
+  }
+  &__cart {
+    min-width: 140px;
+    display: flex;
+    align-items: center;
+    &-img {
+      fill: #6a7180;
     }
+  }
+  &__btn {
+    min-width: 150px;
+    min-height: 48px;
+    color: #ffffff;
+    border: 0px;
+    outline: none;
+    background-color: #63a63e;
+    text-align: center;
+  }
 }
