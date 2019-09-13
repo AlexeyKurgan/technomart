@@ -3,134 +3,16 @@
   font-size: 17px;
   min-height: 379px;
 
+ 
   /** top navigation styles **/
-  &__top-nav {
-    background-color: $bg-color1;
-  }
-
-  &__nav-wrap {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  &__link {
-    color: #ffffff;
-    &:hover {
-      color: #ffffff;
-      text-decoration: none;
-    }
-  }
-
-  &__logo {
-    min-width: 220px;
-    min-height: 43px;
-    display: block;
-    margin-right: 17px;
-    text-align: center;
-    background-color: $bg-color2;
-    font-size: 24px;
-    line-height: 48px;
-    box-shadow: 0px 5px 0px 0px $shadow-color;
-  }
-  &__search {
-    display: flex;
-    align-items: center;
-
-    &-img {
-      width: 20px;
-      height: 20px;
-      fill: $icon-color;
-    }
-    &-form {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    &-send {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 35px;
-      height: 35px;
-      outline: none;
-      border: 0px;
-      background-color: $bg-color1;
-    }
-    &-field {
-      background-color: $bg-color1;
-      color: #ffffff;
-      padding: 0px 10px 0px 10px;
-      border: 0;
-      font-size: 20px;
-    }
-  }
-
-  &__bookmarks {
-    display: flex;
-    align-items: center;
-    min-width: 160px;
-
-    &-img {
-      fill: $icon-color;
-      margin-right: 13px;
-    }
-  }
-  &__cart {
-    min-width: 140px;
-    display: flex;
-    align-items: center;
-    &-img {
-      fill: #6a7180;
-      margin-right: 17px;
-      width: 17px;
-      height: 17px;
-    }
-  }
-  &__btn {
-    min-width: 150px;
-    min-height: 48px;
-    color: #ffffff;
-    border: 0px;
-    outline: none;
-    background-color: #63a63e;
-    text-align: center;
-  }
+  @import 'header/top-nav';
   /** top navigation styles **/
 
+  /** middle navigation styles **/
+  @import 'header/midlle-nav';
+  /** middle navigation styles **/
 
-/** middle navigation styles **/ 
-  
-
-  &__midlle-nav-wrap{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color:black;
-    min-height: 159px;
-    border:1px solid black;
-  }
-
-  &__title {
-    font-size: 16px;
-    color:#ee434f;
-    font-style: italic;
-
-  }
-  
-
-  &__info {
-    min-width:250px;
-    border:1px solid black;
-
-    &-img {
-      fill:$icon-color;
-    }
-    &-phone {
-      font-size: 21px;
-      color:#ee434f;
-    }
-  }
-
+  /** middle navigation styles **/
+  @import 'header/bottom-nav';
+  /** middle navigation styles **/
 }
