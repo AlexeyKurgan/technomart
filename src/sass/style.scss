@@ -3,7 +3,12 @@
 @import 'libs/fonts';
 /** libs styles in project **/ 
 
-/*---------------------------------------------------*/ 
+/** lib files in project **/
+@import 'libs/_bootstrap-reboot.min'; 
+@import 'libs/fonts'; 
+@import 'libs/slick'; 
+@import 'libs/slick-theme'; 
+/** lib files in project **/ 
 
 /** base styles in project **/
 @import 'base/base-styles'; 

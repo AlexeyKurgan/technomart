@@ -1,27 +1,93 @@
 &__top {
-    width:100%;
-    border:1px solid black;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-&__block {
-    width:33.333%;
-    min-height:102px;
-    border:1px solid black;
-    background-color:red;
+/** category image styles **/
+&__img {
+  margin-right: 43px;
+  margin-top: 20px;
+  margin-bottom: 14px;
+  fill: white;
+  &_lm {
+    margin: 0;
+    margin-right: 30px;
+  }
+}
+/** category image styles **/
+// -----------------------------------------------------------------------------------------
+/** image for new product **/
+&__new-prod {
+  width: 69px;
+  height: 59px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/** image for new product **/
 
-    &_top {
-        background-color: #ffbf47;
+&__block {
+  width: 33.333%;
+  min-height: 125px;
+  background-color: red;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &_top {
+    background-color: #ffbf47;
+  }
+  &_midlle {
+    background-color: #3bbce3;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  &_bottom {
+    background-color: #dc91d8;
+  }
+
+  &-wrapp {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-link {
+    color: white;
+    &:hover {
+      color: white;
+      text-decoration: none;
     }
-    &_midlle {
-        background-color: #3bbce3;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    &_bottom {
-        background-color: #dc91d8;
-    }
+  }
+
+  &-title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 24px;
+  }
+  &-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 137px;
+    height: 39px;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-left: 25px;
+    background-color: yellowgreen;
+  }
+  &_subtitle1 {
+    background-color: #e5ac40;
+  }
+  &_subtitle2 {
+    background-color: #35a9cc;
+  }
+  &_subtitle3 {
+    background-color: #c682c2;
+  }
 }
