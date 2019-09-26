@@ -62,10 +62,6 @@
       text-align: center;
       font-size: 18px;
       max-width: 157px;
-
-      &_mb{
-          padding-bottom: 40px;
-      }
     }
 
     &-link {
@@ -78,6 +74,9 @@
 
     &-old-price {
       color: #aaaaaa;  
+      &_hidden{
+        visibility: hidden;
+      }
     }
 
     &-new-price {
