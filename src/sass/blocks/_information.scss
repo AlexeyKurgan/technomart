@@ -1,0 +1,25 @@
+.info {
+    padding-top: 82px;
+    padding-bottom: 86px;
+    display: flex;
+    justify-content: space-between; 
+
+    &__title{
+        font-size: 30px;
+        font-weight:400;
+    }
+
+    /** about-company styles **/
+    @import 'information/about-company';
+    /** about-company styles **/
+
+
+    /** info contacts styles **/
+    @import 'information/info-contacts';
+    /** info contacts styles **/
+
+
+    /** info contacts styles **/
+    @import 'information/info-btn-link';
+    /** info contacts styles **/
+}

@@ -1,0 +1,27 @@
+&__about-company {
+    min-width: 523px;
+}
+
+&__about-desc {
+    font-weight: 900;
+}
+
+&__list {
+    list-style: none;
+    padding: 0;
+
+    &-item::before {
+        content: '';
+        width: 25px;
+        height: 2px;
+        background-color: red;
+        display: inline-block;
+        margin-right: 11px;
+        vertical-align: middle;
+    }
+
+    &-item {
+        font-size: 17px;
+        font-weight: 900;
+    }
+}
