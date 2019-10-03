@@ -1,5 +1,6 @@
 &__about-company {
     min-width: 523px;
+    padding: 0;
 }
 
 &__about-desc {
@@ -9,6 +10,7 @@
 &__list {
     list-style: none;
     padding: 0;
+    margin-bottom: 35px;
 
     &-item::before {
         content: '';
@@ -23,5 +25,6 @@
     &-item {
         font-size: 17px;
         font-weight: 900;
+        line-height: 38px;
     }
 }

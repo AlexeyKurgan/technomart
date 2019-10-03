@@ -1,0 +1,46 @@
+&__bottom{
+    background-color: #293449;
+    
+}
+
+&__bottom-row{
+    min-height: 106px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+&__social-wrapp{
+    display: flex;
+    justify-content: space-between;
+    min-width:134px;
+    margin-left: 50px;
+}
+&__social-img{
+    background-color: #212a3a;
+    width: 40px;
+    height:41px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    fill:white;
+    &:hover{
+        cursor: pointer;
+        fill:$bg-color2;
+    }
+}
+
+&__technical-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+&__feedback-mail{
+    margin-right: 50px;
+    color:#ffd180;
+}
+
+&__development-name{
+    color:#ffd180;
+}
